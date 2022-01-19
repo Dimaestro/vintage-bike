@@ -352,4 +352,43 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.slider {
+  background-color: #f7f7f7;
+}
+.slider__body {
+  text-align: center;
+}
+.slider__item {
+  padding: 120px 0;
+}
+.slider__item:nth-child(2) {
+  display: none;
+}
+.slider__item:nth-child(3) {
+  display: none;
+}
+.slider__icon {
+  margin: 0 0 25px 0;
+}
+.slider__title {
+  font-size: 18px;
+  font-family: Lato, serif;
+  color: #353738;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  margin: 0 0 25px 0;
+}
+.slider__title span {
+  font-weight: 300;
+  color: #9fa2a3;
+}
+.slider__text {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  color: #848789;
+  font-style: italic;
+  line-height: 1.417;
+}
+
 /*# sourceMappingURL=style.css.map */
